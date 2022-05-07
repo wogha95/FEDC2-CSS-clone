@@ -39,16 +39,11 @@
               margin-bottom: 5px;
               padding-bottom: 60.869565217391304%;
               background-color: $color-f8f8f8;
-              &::before {
-                content: "";
+              img {
                 position: absolute;
-                top: 50%;
-                left: 50%;
+                top: 35%;
+                left: 43%;
                 width: 34px;
-                height: 47px;
-                margin: -24px 0 0 -17px;
-                background: url($url-lock) no-repeat;
-                background-position: center;
               }
             }
             .title {
@@ -92,18 +87,12 @@
           height: 22px;
           border: 1px solid $color-eee;
           border-radius: 50%;
-          background: url($url-prev) no-repeat;
-          background-position: center;
-          text-indent: -999em;
         }
         .next {
           width: 22px;
           height: 22px;
           border: 1px solid $color-eee;
           border-radius: 50%;
-          background: url($url-next) no-repeat;
-          background-position: center;
-          text-indent: -999em;
         }
       }
     }
@@ -206,9 +195,12 @@
           .adfit {
             min-width: 160px;
             min-height: 90px;
-            background: url($url-fedc) no-repeat;
-            background-position: center;
-            background-size: contain;
+            cursor: pointer;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+            }
           }
         }
       }

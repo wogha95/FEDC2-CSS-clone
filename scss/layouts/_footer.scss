@@ -19,8 +19,12 @@
       height: 30px;
       border: 1px solid $color-eee;
       border-radius: 50%;
-      background: $color-fff url($url-pagetop) no-repeat;
-      background-position: center;
+      cursor: pointer;
+      overflow: hidden;
+      img {
+          width: 100%;
+          height: 100%;
+      }
     }
   }
 }
