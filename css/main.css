@@ -189,7 +189,7 @@
   width: 34px;
   height: 47px;
   margin: -24px 0 0 -17px;
-  background: url("/assets/lock.svg") no-repeat;
+  background: url("./assets/lock.svg") no-repeat;
   background-position: center;
 }
 #container .content-wrap #content .inner .post-item a .title {
@@ -232,7 +232,7 @@
   height: 22px;
   border: 1px solid #eee;
   border-radius: 50%;
-  background: url("/assets/prev.svg") no-repeat;
+  background: url("./assets/prev.svg") no-repeat;
   background-position: center;
   text-indent: -999em;
 }
@@ -241,7 +241,7 @@
   height: 22px;
   border: 1px solid #eee;
   border-radius: 50%;
-  background: url("/assets/next.svg") no-repeat;
+  background: url("./assets/next.svg") no-repeat;
   background-position: center;
   text-indent: -999em;
 }
@@ -350,7 +350,7 @@
 #container .content-wrap #aside .sidebar-2 .revenue_unit_wrap .adfit {
   min-width: 160px;
   min-height: 90px;
-  background: url("/assets/fedc.png") no-repeat;
+  background: url("./assets/fedc.png") no-repeat;
   background-position: center;
   background-size: contain;
 }
@@ -381,7 +381,7 @@
   height: 30px;
   border: 1px solid #eee;
   border-radius: 50%;
-  background: #fff url("/assets/page-top.svg") no-repeat;
+  background: #fff url("./assets/page-top.svg") no-repeat;
   background-position: center;
 }
 
