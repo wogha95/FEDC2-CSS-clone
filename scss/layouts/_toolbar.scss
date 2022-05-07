@@ -1,0 +1,45 @@
+#toolbar {
+  position: fixed;
+  top: auto;
+  bottom: 20px;
+  height: 30px;
+  right: 20px;
+  font-size: 0;
+  line-height: 0;
+  .inner {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 2px 5px rgb(0 0 0 / 10%);
+    background-color: $color-fff;
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+      height: 30px;
+      border: none;
+      font-size: 0;
+      line-height: 0;
+      background-color: $color-fff;
+      .txt-id {
+        overflow: hidden;
+        max-width: 109px;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: normal;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: $color-777;
+      }
+      .txt-state {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: normal;
+        font-style: normal;
+        color: $color-000;
+      }
+    }
+  }
+}

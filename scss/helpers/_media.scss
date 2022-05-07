@@ -1,0 +1,67 @@
+@media screen and (max-width: $breakpoint-768) {
+  #header {
+    .inner {
+      .inner-wrapper {
+        .util {
+          .profile {
+            display: none;
+          }
+          .bars {
+            display: block;
+          }
+        }
+      }
+      #gnb {
+        ul {
+          gap: 48px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-768) {
+  #container {
+    .content-wrap {
+      justify-content: center;
+      padding: 0 24px;
+      #content {
+        width: 100%;
+        padding: 36px 0 40px;
+        .inner {
+          grid-template-rows: repeat(4, 1fr);
+          grid-template-columns: repeat(1, 1fr);
+        }
+        .pagination {
+          a {
+            margin: 0 6px;
+          }
+        }
+      }
+      #aside {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-768) {
+  #footer {
+    .inner {
+      .inner-wrapper {
+        p {
+          font-size: 0.8125em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-1260) {
+  #menubar {
+    display: none;
+  }
+  #toolbar {
+    display: none;
+  }
+}

@@ -1,0 +1,88 @@
+#header {
+  @include flex($justify-content: center);
+  border-bottom: 1px solid $color-eee;
+  .inner {
+    max-width: 1080px;
+    width: 100%;
+    padding: 0 24px;
+    .inner-wrapper {
+      @include flex($justify-content: space-between);
+      padding: 23px 0;
+      h1 {
+        font-family: $font-nanum;
+        font-weight: 800;
+        font-size: 1.75em;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        color: $color-333;
+        a {
+          height: 32px;
+          text-decoration: none;
+          color: $color-333;
+        }
+      }
+      .util {
+        @include flex($justify-content: space-between);
+        width: 78px;
+        .search {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 32px;
+          height: 32px;
+          border: 1px solid $color-eee;
+          border-radius: 50%;
+          background-color: #fff;
+          cursor: pointer;
+          overflow: hidden;
+          img {
+            width: 70%;
+            height: 70%;
+          }
+        }
+        .profile, .bars {
+          width: 32px;
+          height: 32px;
+          border: 1px solid $color-eee;
+          border-radius: 50%;
+          cursor: pointer;
+          overflow: hidden;
+          img {
+              width: 100%;
+              height: 100%;
+          }
+        }
+        .bars {
+          display: none;
+        }
+      }
+    }
+  }
+  #gnb {
+    height: 66px;
+    @include flex();
+    ul {
+      @include flex();
+      gap: 52px;
+      li {
+        @include flex();
+        a {
+          padding: 22px 4px 24px;
+          color: $color-777;
+        }
+        &.current {
+          border-bottom: 4px solid $color-333;
+          a {  
+            color: $color-333;
+          }
+        }
+        &:hover {
+          border-bottom: 4px solid $color-333;
+          a {
+            color: $color-333;
+          }
+        }
+      }
+    }
+  }
+}
